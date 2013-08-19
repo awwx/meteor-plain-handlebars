@@ -6,7 +6,23 @@ packaged for Meteor.
 This version doesn't have the many enhancements of Meteor's templates,
 but it does run on both the client and the server.
 
-The Handlebars variable is exported as `PlainHandlebars`.
+
+## Version
+
+1.0.0.1  (Handlebars version 1.0.0, this packaging release 1).
+
+This package works with Meteor 0.6.5 and above only.
+
+
+## API
+
+The Handlebars variable as described in the [Handlebars
+documentation](http://handlebarsjs.com/) is exported as
+`PlainHandlebars`, and is available on both the client and the server.
+
+This is completely separate from the `Handlebars` variable that Meteor
+exports on the client.  (The two versions don't share helpers or
+templates, for example).
 
 The main entry points in the API are `compile`, `registerHelper`,
 and `registerPartial`.
@@ -41,7 +57,7 @@ directory), or use `Meteor.startup`.
 Also note that adding a helper to a template won't work, as that's a
 Meteor extension: helpers can only be defined globally using
 `PlainTemplate.registerHelper`.  There are also no template instances,
-nor are the `rendered`, `created` etc. callbacks.
+nor are there the `rendered`, `created` etc. callbacks.
 
 ```
 <template name="greetings">
