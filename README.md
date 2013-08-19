@@ -42,9 +42,12 @@ var myTemplate = PlainHandlebars.compile("Hello {{name}}.");
 console.log(myTemplate({name: "Alice"}));
 ```
 
+## Template Definitions
+
 For convenience, files with the `.plain` extension are parsed for
-`<template name="...">...</template>` definitions, which are saved in
-`PlainTemplate` and also registered as partials.
+`<template name="...">...</template>` definitions, which are saved by
+name in `PlainTemplate` and also registered as partials (so that they
+can be referenced using the `{{> subtemplateName}}` notation).
 
 However, while Meteor automatically loads `.html` files first,
 `.plain` files are **not** automatically loaded before code files.
