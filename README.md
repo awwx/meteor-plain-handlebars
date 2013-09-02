@@ -28,8 +28,9 @@ The main entry points in the API are `compile`, `registerHelper`,
 and `registerPartial`.
 
 `compile` is described in the Handlebars documentation
-[Getting Started](http://handlebarsjs.com/#getting-started) and
-`registerHelper` in [Helpers](http://handlebarsjs.com/#helpers).
+[Getting Started](http://handlebarsjs.com/#getting-started), and
+`registerHelper` is described in
+[Helpers](http://handlebarsjs.com/#helpers).
 
 `registerPartial` doesn't seem to be in the Handlebars documentation,
 but is described in a treehouse blog post
