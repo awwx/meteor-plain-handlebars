@@ -45,7 +45,7 @@ console.log(myTemplate({name: "Alice"}));
 
 ## Template Definitions
 
-For convenience, files with the `.plain` extension are parsed for
+Files with the `.plain` extension are parsed for
 `<template name="...">...</template>` definitions, which are saved by
 name in `PlainTemplate` and also registered as partials (so that they
 can be referenced using the `{{> subtemplateName}}` notation).

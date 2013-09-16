@@ -1,0 +1,7 @@
+<template name="greetings">
+  {{> hello}} Welcome.
+</template>
+
+<template name="hello">
+  Hello {{name}}.
+</template>

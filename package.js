@@ -23,3 +23,19 @@ Package.on_use(function (api) {
     ['client', 'server']
   );
 });
+
+
+Package.on_test(function (api) {
+  api.use([
+    'coffeescript',
+    'plain-handlebars',
+    'tinytest'
+  ]);
+  api.add_files(
+    [
+      'test.plain',
+      'plain-tests.coffee'
+    ],
+    ['client', 'server']
+  );
+});
