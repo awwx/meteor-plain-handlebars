@@ -3,8 +3,14 @@
 Unmodified [Handlebars](http://handlebarsjs.com/) version 1.0.0,
 packaged for Meteor.
 
-This version doesn't have the many enhancements of Meteor's templates,
+This package is essentially a stop-gap measure since Meteor’s
+templates don’t yet run on the server.
+
+This version doesn't have the enhancements of Meteor's templates,
 but it does run on both the client and the server.
+
+Thus it is useful if you’re looking for a template system to run on
+the server, and you like Handlebars.
 
 
 ## Version
