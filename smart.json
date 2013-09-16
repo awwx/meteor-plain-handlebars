@@ -3,6 +3,6 @@
   "description": "Unmodified Handlebars 1.0.0, for both client and server",
   "homepage": "https://github.com/awwx/meteor-plain-handlebars#readme",
   "author": "Andrew Wilcox",
-  "version": "1.0.0.1",
+  "version": "1.0.0.2",
   "git": "https://github.com/awwx/meteor-plain-handlebars.git"
 }

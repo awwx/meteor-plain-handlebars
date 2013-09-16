@@ -16,6 +16,7 @@ handler = (compileStep) ->
     match = source.match(templateRegex)
     break unless match?
     [x, templateName, contents, rest] = match
+    contents = contents.trim()
     output += """
       PlainTemplate[#{JSON.stringify(templateName)}] =
         PlainHandlebars.compile(#{JSON.stringify(contents)});

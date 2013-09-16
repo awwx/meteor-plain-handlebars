@@ -9,7 +9,7 @@ but it does run on both the client and the server.
 
 ## Version
 
-1.0.0.1  (Handlebars version 1.0.0, this packaging release 1).
+1.0.0.2  (Handlebars version 1.0.0, this packaging release 2).
 
 This package works with Meteor 0.6.5 and above only.
 
@@ -79,8 +79,21 @@ console.log(PlainTemplate.greetings({name: "Bob"}));
 ```
 
 
-## Support
+## Donate
 
-If you found this package helpful,
-[donate](https://www.gittip.com/awwx/) to support ongoing maintenance
-and development.
+An easy and effective way to support the continued maintenance of this
+package and the development of new and useful packages is to [donate
+through Gittip](https://www.gittip.com/awwx/).
+
+Gittip is a [platform for sustainable
+crowd-funding](https://www.gittip.com/about/faq.html).
+
+Help build an ecosystem of well maintained, quality Meteor packages by
+joining the
+[Gittip Meteor Community](https://www.gittip.com/for/meteor/).
+
+
+## Hire
+
+Need support, debugging, or development for your project?  You can
+[hire me](http://awwx.ws/hire-me) to help out.
